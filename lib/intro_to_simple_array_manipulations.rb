@@ -21,3 +21,7 @@ end
 def shift_with_args(array)
   array.shift(2)
 end
+
+def sing_concat(arr1, arr2)
+  arr1 + arr2
+end
