@@ -37,3 +37,7 @@ end
 def using_flatten(arr)
   arr.flatten
 end
+
+def using_delete(arr, str)
+    arr.delete_if {|elem| elem == str }
+end
